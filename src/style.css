@@ -7,3 +7,15 @@
   text-decoration: line-through;
   opacity: 0.6;
 }
+
+
+/*los aporbados se muestran en verde y en negrita, los suspensos en rojo*/
+
+
+.aprobado{
+  color: green;
+}
+
+.suspenso{
+  color: red;
+}
