@@ -7,11 +7,21 @@
     <title>Gestor de Tareas</title>
   </head>
   <body>
+    <button id="btn-tema" type="button">🌙 Modo oscuro</button>
+
     <div id="app">
       <h1></h1>
       <p id="resumen"></p>
+
+
       <ul id="lista"></ul>
     </div>
+    
+    <form id="form-tarea">
+    <input type="text" id="input-tarea" placeholder="¿Qué necesitas hacer?" autocomplete="off">
+    <button type="submit">Añadir</button>
+  </form>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
